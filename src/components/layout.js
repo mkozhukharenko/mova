@@ -34,15 +34,17 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        {/* <footer
+        <footer
           style={{
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()},  
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer> */}
+          Project on  <a href="https://github.com/mkozhukharenko/mova">Github</a>  
+        </footer>
+
+        
       </div>
     </>
   )

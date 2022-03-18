@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import Seo from "../../components/seo"
@@ -8,7 +7,7 @@ const SecondPage = () => (
   <Layout>
     <Seo title="Support defenders with goods" />
     <h1>Support defenders with goods</h1>
-    <p>If you have next things available, you can send them to the warehouse in Poland:</p>
+    <p>We need:</p>
     <ul>
       <li>first aid medicine (e.g.: Tourniquets, QuikClot Combat Gauze, Halo Chest Seal etc)</li>
       <li>Knee pads</li>
@@ -22,9 +21,10 @@ const SecondPage = () => (
       <li>Powerbanks </li>
       <li>Cereals and canned food</li>
     </ul>
+    <p>If you have next things available, you can send them to the warehouse in Poland:</p>
     <p>Note! It makes sense to send a parcel if goods value is greater than 500$.
-      You can cooperate with people from your community/area to gather such a parcel.
-      Contact me with email to get details: nikolay.kozhukharenko@gmail.com</p>
+      Hint: You can cooperate with people from your community/area and send one parcel.
+      Contact me to get more details: nikolay.kozhukharenko@gmail.com</p>
   </Layout>
 )
 

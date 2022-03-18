@@ -17,14 +17,40 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
+        {" "}
         <Link
           to="/"
           style={{
             color: `#FFDE00`,
             textDecoration: `none`,
+            position: `relative`,
           }}
         >
-          {siteTitle}
+
+          <span
+          style={{
+            marginLeft: `32px`
+          }}
+          >
+          ova
+          </span>
+          
+          
+          <span
+          style={{
+            position: `absolute`,
+            top: `10px`,
+            left: `0px`,
+          }}
+          >M</span>
+          <span
+          style={{
+            position: `absolute`,
+            top: `-10px`,
+            left: `0px`,
+          }}
+          >M</span>
+
         </Link>
       </h1>
     </div>
